@@ -20,3 +20,4 @@ then = DO THIS IF TRUE
 fi = FINISH THE CHECK
 
 This introduced decision-making into my Bash scripts.
+
