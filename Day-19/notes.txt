@@ -34,3 +34,4 @@ worked correctly when running the script with Bash.
 MEMORY:
 WHILE TRUE -> KEEP GOING
 FALSE -> STOP
+
