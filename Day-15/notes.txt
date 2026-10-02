@@ -1,0 +1,26 @@
+DAY 15 - LOGICAL OR
+
+WHAT I LEARNED:
+|| means OR.
+
+With OR, at least ONE condition must be true.
+
+EXAMPLE:
+role="admin"
+
+if [ "$role" = "admin" ] || [ "$role" = "security" ]
+then
+    echo "Access granted"
+fi
+
+The condition succeeds if:
+role is admin
+OR
+role is security.
+
+MEMORY:
+&& = BOTH
+|| = AT LEAST ONE
+
+DAY 01-15 FOUNDATION COMPLETE:
+I can now store data, receive input, compare values and make decisions in Bash.

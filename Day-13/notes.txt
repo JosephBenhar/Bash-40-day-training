@@ -1,0 +1,24 @@
+DAY 13 - LESS THAN OR EQUAL
+
+WHAT I LEARNED:
+-le means less than or equal to.
+
+EXAMPLE:
+attempts=5
+
+if [ "$attempts" -le 5 ]
+then
+    echo "Attempts are within the limit"
+fi
+
+Both of these would be TRUE:
+3 -le 5
+5 -le 5
+
+NUMERIC COMPARISON MEMORY:
+-gt = greater than
+-lt = less than
+-eq = equal
+-ne = not equal
+-ge = greater than or equal
+-le = less than or equal

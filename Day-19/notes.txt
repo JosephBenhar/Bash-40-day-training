@@ -1,0 +1,36 @@
+DAY 19 - WHILE LOOPS
+
+WHAT I LEARNED:
+A while loop continues while its condition is TRUE.
+
+STRUCTURE:
+while [ condition ]
+do
+    command
+done
+
+IMPORTANT:
+The value controlling the condition normally needs to change.
+Otherwise the loop may continue forever.
+
+PRACTICE:
+attempts.sh
+
+I also learned:
+Ctrl+C can stop a running loop.
+
+PORTABLE INCREMENT:
+attempt=$((attempt + 1))
+
+DEBUGGING LESSON:
+I had an issue with:
+((attempt++))
+
+Using:
+attempt=$((attempt + 1))
+
+worked correctly when running the script with Bash.
+
+MEMORY:
+WHILE TRUE -> KEEP GOING
+FALSE -> STOP

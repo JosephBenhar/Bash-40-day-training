@@ -1,0 +1,22 @@
+DAY 05 - IF STATEMENTS
+
+WHAT I LEARNED:
+An if statement allows a script to make a decision.
+
+STRUCTURE:
+if [ condition ]
+then
+    command
+fi
+
+HOW IT WORKS:
+IF the condition is true
+THEN run the command
+FI closes the if statement.
+
+MEMORY:
+if = CHECK
+then = DO THIS IF TRUE
+fi = FINISH THE CHECK
+
+This introduced decision-making into my Bash scripts.

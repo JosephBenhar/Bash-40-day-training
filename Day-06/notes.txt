@@ -1,0 +1,22 @@
+DAY 06 - ELSE
+
+WHAT I LEARNED:
+else gives Bash something to do when the if condition is FALSE.
+
+STRUCTURE:
+if [ condition ]
+then
+    echo "Condition is true"
+else
+    echo "Condition is false"
+fi
+
+HOW IT WORKS:
+if = check something
+then = what to do when TRUE
+else = what to do when FALSE
+fi = finish the decision
+
+MEMORY:
+IF TRUE -> THEN
+IF FALSE -> ELSE

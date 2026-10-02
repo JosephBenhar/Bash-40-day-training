@@ -1,0 +1,67 @@
+DAY 25 - SORT AND VIM
+
+WHAT I LEARNED:
+
+sort file
+Displays lines in sorted order.
+
+sort -r file
+Reverse sort.
+
+sort -n file
+Numeric sort.
+
+sort -nr file
+Numeric reverse sort.
+
+IMPORTANT:
+sort file displays the sorted result.
+It does not automatically rewrite the original file.
+
+To save the result:
+sort file > sorted_file.txt
+
+LEXICAL VS NUMERIC SORT:
+
+Numbers:
+10
+2
+30
+5
+1
+
+Normal sort can produce:
+1
+10
+2
+30
+5
+
+Numeric sort:
+sort -n numbers.txt
+
+Produces:
+1
+2
+5
+10
+30
+
+VIM BASICS:
+vim filename
+i = insert mode
+Esc = leave insert mode
+:w = save
+:q = quit
+:wq = save and quit
+:q! = quit without saving
+
+GOLDEN RULE:
+command > filename
+
+The filename on the RIGHT receives the output.
+
+MEMORY:
+sort = ARRANGE
+-n = NUMERIC
+-r = REVERSE

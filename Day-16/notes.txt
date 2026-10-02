@@ -1,0 +1,25 @@
+DAY 16 - FOR LOOPS
+
+WHAT I LEARNED:
+A for loop repeats a command for multiple items.
+
+STRUCTURE:
+for variable in item1 item2 item3
+do
+    echo "$variable"
+done
+
+EXAMPLE:
+for server in server1 server2 server3
+do
+    echo "Checking $server"
+done
+
+HOW IT WORKS:
+for = start repeating
+variable = temporarily stores the current item
+do = start the work
+done = finish the loop
+
+MEMORY:
+FOR EACH ITEM -> DO SOMETHING

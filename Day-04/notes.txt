@@ -1,0 +1,17 @@
+DAY 04 - USER INPUT WITH READ
+
+WHAT I LEARNED:
+read allows my script to receive information from the user.
+
+EXAMPLE:
+echo "What is your name?"
+read name
+echo "Hello $name"
+
+HOW I REMEMBER IT:
+echo = TALK
+read = LISTEN
+variable = STORE
+$variable = GET
+
+This was an important step because my scripts could now interact with the user instead of only displaying fixed information.

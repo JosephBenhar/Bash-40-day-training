@@ -1,0 +1,24 @@
+DAY 10 - NUMERIC EQUALITY
+
+WHAT I LEARNED:
+-eq checks whether two numbers are equal.
+
+EXAMPLE:
+number=5
+
+if [ "$number" -eq 5 ]
+then
+    echo "Numbers are equal"
+fi
+
+IMPORTANT:
+-eq is used for numeric equality.
+
+= can be used when comparing text.
+
+EXAMPLES:
+[ "$number" -eq 5 ]
+[ "$name" = "Joseph" ]
+
+MEMORY:
+-eq = EQUAL NUMBERS

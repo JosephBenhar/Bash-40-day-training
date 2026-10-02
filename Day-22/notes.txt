@@ -1,0 +1,33 @@
+DAY 22 - FUNCTION ARGUMENTS
+
+WHAT I LEARNED:
+Functions can receive information when they are called.
+
+$1 = first argument
+$2 = second argument
+$3 = third argument
+
+PRACTICE SCRIPT:
+security_event.sh
+
+EXAMPLE:
+security_event 10.0.0.25 12 root
+
+Inside the function:
+
+$1 = 10.0.0.25
+$2 = 12
+$3 = root
+
+The script used the failed login count to classify the event.
+
+0-5 = NORMAL
+6-10 = SUSPICIOUS
+More than 10 = CRITICAL
+
+WHY THIS MATTERS:
+One function can analyse different data without rewriting the function.
+
+MEMORY:
+FUNCTION = JOB
+ARGUMENTS = DATA GIVEN TO THE JOB

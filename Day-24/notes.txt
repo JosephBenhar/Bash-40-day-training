@@ -1,0 +1,39 @@
+DAY 24 - TAIL AND REDIRECTION
+
+WHAT I LEARNED:
+
+tail file
+Shows the end of a file.
+
+tail -n 3 file
+Shows the last 3 lines.
+
+tail -f file
+Continues watching a file for new lines.
+
+Ctrl+C
+Stops tail -f.
+
+REDIRECTION:
+
+>
+Writes output to a file and overwrites existing content.
+
+>>
+Adds output to the end of a file.
+
+EXAMPLE:
+ls > myfiles.txt
+
+IMPORTANT DIFFERENCE:
+
+|
+Output goes to another COMMAND.
+
+>
+Output goes to a FILE.
+
+MEMORY:
+|  = COMMAND TO COMMAND
+>  = WRITE / OVERWRITE FILE
+>> = APPEND TO FILE

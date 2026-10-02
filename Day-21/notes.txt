@@ -1,0 +1,44 @@
+DAY 21 - FUNCTIONS
+
+WHAT I LEARNED:
+A function is a reusable block of commands.
+
+A variable stores DATA.
+A function stores a JOB.
+
+EXAMPLE:
+security_testing() {
+    echo "Checking Firewall"
+    echo "Checking Failed Logins"
+    echo "Checking active connections"
+}
+
+security_testing
+
+IMPORTANT:
+Creating the function does not automatically execute it.
+
+DEFINE != EXECUTE
+
+PRACTICE SCRIPTS:
+security.sh
+login_check.sh
+
+In login_check.sh I used a function with conditions to classify login activity.
+
+0-5 failed logins = NORMAL
+6-10 failed logins = SUSPICIOUS
+More than 10 = CRITICAL
+
+DEBUGGING LESSON:
+I used cat -n to display line numbers and found an accidental value in the script.
+
+DEBUGGING PROCESS:
+READ ERROR
+INSPECT
+FIND ROOT CAUSE
+FIX
+TEST
+
+MEMORY:
+FUNCTION = REUSABLE JOB

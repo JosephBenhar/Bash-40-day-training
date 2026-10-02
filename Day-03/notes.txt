@@ -1,0 +1,26 @@
+DAY 03 - VARIABLES
+
+WHAT I LEARNED:
+A variable stores information that I can use later.
+
+EXAMPLE:
+name="Joseph"
+
+echo "$name"
+
+IMPORTANT:
+Do not put spaces around =
+
+Correct:
+name="Joseph"
+
+Wrong:
+name = "Joseph"
+
+Variables are case-sensitive.
+
+name and Name are different variables.
+
+MEMORY:
+variable = STORE
+$variable = GET THE STORED VALUE

@@ -1,0 +1,18 @@
+DAY 09 - LESS THAN
+
+WHAT I LEARNED:
+-lt means less than when comparing numbers.
+
+EXAMPLE:
+number=3
+
+if [ "$number" -lt 5 ]
+then
+    echo "Number is less than 5"
+fi
+
+In this example:
+3 -lt 5 is TRUE.
+
+MEMORY:
+-lt = LESS THAN

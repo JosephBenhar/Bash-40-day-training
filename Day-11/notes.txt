@@ -1,0 +1,18 @@
+DAY 11 - NOT EQUAL
+
+WHAT I LEARNED:
+-ne means not equal when comparing numbers.
+
+EXAMPLE:
+number=10
+
+if [ "$number" -ne 5 ]
+then
+    echo "The numbers are different"
+fi
+
+In this example:
+10 -ne 5 is TRUE.
+
+MEMORY:
+-ne = NOT EQUAL

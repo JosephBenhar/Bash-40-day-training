@@ -1,0 +1,45 @@
+DAY 23 - FILE AND TEXT PROCESSING
+
+WHAT I LEARNED:
+
+cat file
+Displays file contents.
+
+grep "admin" file
+Finds lines containing admin.
+
+grep -i
+Searches without caring about uppercase/lowercase.
+
+grep -c
+Counts matching lines.
+
+grep -v
+Shows lines that do NOT match.
+
+wc -l
+Counts lines.
+
+head file
+Shows the beginning of a file.
+
+head -n 5 file
+Shows the first 5 lines.
+
+PIPE:
+|
+
+A pipe sends the output of the command on the LEFT
+into the command on the RIGHT.
+
+EXAMPLE:
+grep "root" failed_logins.txt | wc -l
+
+LOGIC:
+grep finds root lines
+|
+passes them
+wc -l counts them
+
+MEMORY:
+PIPE = LEFT OUTPUT -> RIGHT INPUT

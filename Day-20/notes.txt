@@ -1,0 +1,31 @@
+DAY 20 - UNTIL LOOPS
+
+WHAT I LEARNED:
+until works differently from while.
+
+while:
+TRUE = continue
+FALSE = stop
+
+until:
+FALSE = continue
+TRUE = stop
+
+PRACTICE SCRIPTS:
+retry.sh
+serveronline.sh
+
+EXAMPLE LOGIC:
+attempt=1
+
+until [ "$attempt" -gt 5 ]
+do
+    echo "Retry $attempt"
+    attempt=$((attempt + 1))
+done
+
+The loop keeps running UNTIL the condition becomes true.
+
+MEMORY:
+WHILE = KEEP GOING WHILE TRUE
+UNTIL = KEEP GOING UNTIL TRUE

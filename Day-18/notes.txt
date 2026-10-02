@@ -1,0 +1,38 @@
+DAY 18 - FOR LOOP WITH IF
+
+WHAT I LEARNED:
+I can combine a loop with an if statement.
+
+The loop repeats.
+The if statement makes a decision during each repetition.
+
+PRACTICE SCRIPT:
+disk.sh
+
+My script checks several usage values:
+40 90 70 95 30
+
+It uses:
+for
+if
+-ge
+else
+fi
+done
+
+IMPORTANT:
+fi closes the IF statement.
+done closes the FOR loop.
+
+LOGIC:
+FOR each value
+    IF value >= 80
+        High usage
+    ELSE
+        Normal
+    FI
+DONE
+
+MEMORY:
+LOOP = REPEAT
+IF = DECIDE

@@ -1,0 +1,23 @@
+DAY 17 - FOR LOOPS WITH NUMBERS
+
+WHAT I LEARNED:
+A for loop can also process a list of numbers.
+
+EXAMPLE:
+for number in 1 2 3 4 5
+do
+    echo "Number: $number"
+done
+
+Bash processes each number one at a time.
+
+The variable changes during every loop:
+1
+2
+3
+4
+5
+
+MEMORY:
+ONE LOOP
+MULTIPLE VALUES

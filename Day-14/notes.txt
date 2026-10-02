@@ -1,0 +1,25 @@
+DAY 14 - LOGICAL AND
+
+WHAT I LEARNED:
+&& means AND.
+
+With AND, BOTH conditions must be true.
+
+EXAMPLE:
+age=25
+access="yes"
+
+if [ "$age" -ge 18 ] && [ "$access" = "yes" ]
+then
+    echo "Access granted"
+fi
+
+Think:
+Condition 1 TRUE
+AND
+Condition 2 TRUE
+=
+Run the command.
+
+MEMORY:
+&& = BOTH MUST BE TRUE

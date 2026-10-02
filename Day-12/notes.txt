@@ -1,0 +1,19 @@
+DAY 12 - GREATER THAN OR EQUAL
+
+WHAT I LEARNED:
+-ge means greater than or equal to.
+
+EXAMPLE:
+age=18
+
+if [ "$age" -ge 18 ]
+then
+    echo "Age is 18 or higher"
+fi
+
+Both of these would be TRUE:
+20 -ge 18
+18 -ge 18
+
+MEMORY:
+-ge = GREATER THAN OR EQUAL

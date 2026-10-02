@@ -1,0 +1,40 @@
+DAY 01 - BASH BASICS AND NAVIGATION
+
+WHAT I LEARNED:
+Bash is a shell that lets me communicate with Linux using commands.
+
+COMMANDS:
+pwd
+Shows my current location.
+
+ls
+Shows files and folders in the current location.
+
+cd foldername
+Moves into a folder.
+
+cd ..
+Moves back one directory.
+
+~
+Represents my home directory.
+
+echo "Hello"
+Prints text to the terminal.
+
+chmod +x script.sh
+Makes a script executable.
+
+./script.sh
+Runs an executable script from the current directory.
+
+SHEBANG:
+#!/usr/bin/env bash
+
+The shebang tells Linux which interpreter should run the script.
+
+MEMORY:
+pwd = WHERE AM I?
+ls = WHAT IS HERE?
+cd = MOVE
+echo = TALK

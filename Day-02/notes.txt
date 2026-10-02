@@ -1,0 +1,22 @@
+DAY 02 - COMMENTS
+
+WHAT I LEARNED:
+Comments are notes inside a Bash script.
+
+SYNTAX:
+# This is a comment
+
+Bash ignores lines beginning with # when they are comments.
+
+WHY COMMENTS MATTER:
+They help me remember what my code does.
+They also make scripts easier for other people to understand.
+
+EXAMPLE:
+#!/usr/bin/env bash
+
+# Display a welcome message
+echo "Welcome Joseph"
+
+MEMORY:
+# = NOTE FOR HUMANS

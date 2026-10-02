@@ -1,0 +1,25 @@
+DAY 07 - ELIF
+
+WHAT I LEARNED:
+elif allows me to check another condition when the first condition is false.
+
+STRUCTURE:
+if [ condition1 ]
+then
+    echo "First condition"
+elif [ condition2 ]
+then
+    echo "Second condition"
+else
+    echo "None matched"
+fi
+
+WHY IT IS USEFUL:
+if and else give me two paths.
+elif allows me to create multiple decision paths.
+
+MEMORY:
+if = FIRST CHECK
+elif = ANOTHER CHECK
+else = EVERYTHING ELSE
+fi = FINISH
