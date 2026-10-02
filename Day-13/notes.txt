@@ -22,3 +22,4 @@ NUMERIC COMPARISON MEMORY:
 -ne = not equal
 -ge = greater than or equal
 -le = less than or equal
+
