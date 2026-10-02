@@ -1,0 +1,31 @@
+DAY 26 - SORT AND UNIQ
+
+sort
+Arranges lines.
+
+uniq
+Removes duplicate lines that are next to each other.
+
+sort file | uniq
+Sorts first, then removes duplicates.
+
+uniq -c
+Counts repeated lines.
+
+SOC Example:
+sort failed_ips.txt | uniq -c
+
+Result:
+2 10.0.0.5
+3 185.10.20.30
+2 192.168.1.10
+
+Finding:
+185.10.20.30 appeared 3 times.
+
+Troubleshooting:
+Blank lines are also counted as data.
+cat -n filename shows line numbers and helped identify blank lines.
+
+MEMORY:
+SORT -> PASS -> COUNT
