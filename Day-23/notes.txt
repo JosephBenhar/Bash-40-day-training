@@ -43,3 +43,4 @@ wc -l counts them
 
 MEMORY:
 PIPE = LEFT OUTPUT -> RIGHT INPUT
+
