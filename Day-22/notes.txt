@@ -31,3 +31,4 @@ One function can analyse different data without rewriting the function.
 MEMORY:
 FUNCTION = JOB
 ARGUMENTS = DATA GIVEN TO THE JOB
+
