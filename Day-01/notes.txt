@@ -38,3 +38,4 @@ pwd = WHERE AM I?
 ls = WHAT IS HERE?
 cd = MOVE
 echo = TALK
+
