@@ -1,0 +1,37 @@
+Day 27 - cut and log field extraction
+
+Today I learned the cut command.
+
+cut = EXTRACT
+
+Important options:
+-d "," = use comma as the delimiter
+-f 1 = extract field 1
+-f 2 = extract field 2
+-f 3 = extract field 3
+-f 1,3 = extract fields 1 and 3
+
+Example:
+cut -d "," -f 1 logins_logs.txt
+
+Pipeline learned:
+grep = FIND
+cut = EXTRACT
+sort = ARRANGE
+uniq -c = COUNT
+
+Example:
+grep "FAILED" logins_logs.txt | cut -d "," -f 1 | sort | uniq -c
+
+Meaning:
+Find FAILED logins
+Extract the IP address
+Arrange matching IPs together
+Count them
+
+Important debugging lesson:
+When using a pipe, the second command can receive data from the first command.
+Do not unnecessarily give the filename again to cut.
+
+Memory:
+FIND -> EXTRACT -> ARRANGE -> COUNT
