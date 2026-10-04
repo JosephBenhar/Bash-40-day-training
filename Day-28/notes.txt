@@ -1,0 +1,67 @@
+Day 28 - AWK Text Processing and Filtering
+
+Today I learned the awk command.
+
+awk can extract fields, filter data, compare values, and perform actions.
+
+FIELDS
+$1 = Field 1
+$2 = Field 2
+$3 = Field 3
+
+Examples:
+
+awk '{print $1}' employees.txt
+Extract Field 1.
+
+awk '{print $1,$2}' employees.txt
+Extract Fields 1 and 2.
+
+FILTERING NUMBERS
+
+awk '$3 > 40000' employees.txt
+Show records where Field 3 is greater than 40000.
+
+awk '$3 < 40000' employees.txt
+Show records where Field 3 is less than 40000.
+
+FILTERING TEXT
+
+awk '$2 == "Security"' employees.txt
+Show employees in the Security department.
+
+Important:
+= means SET / ASSIGN
+== means CHECK / COMPARE
+
+FILTER + EXTRACT
+
+awk '$2 == "Security" {print $1}' employees.txt
+
+This checks Field 2 and prints only Field 1.
+
+MULTIPLE CONDITIONS
+
+awk '$2 == "Security" && $3 > 43000 {print $1}' employees.txt
+
+This means:
+Check department is Security
+AND
+Check salary is greater than 43000
+Then print the employee name.
+
+Important pattern:
+
+awk 'CONDITION {ACTION}' file
+
+Memory:
+CHECK FIRST -> ACTION SECOND
+
+Day 27:
+grep -> FIND
+cut -> EXTRACT
+sort -> ARRANGE
+uniq -c -> COUNT
+
+Day 28:
+awk -> EXTRACT + FILTER + PROCESS
