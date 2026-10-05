@@ -1,0 +1,53 @@
+DAY 29 - LINUX DISK MONITORING
+
+1. df -h
+Checks disk/filesystem space in human-readable format.
+
+df = Disk Free
+-h = Human readable
+
+2. du -sh folder
+Checks how much disk space a folder is using.
+
+du = Disk Usage
+-s = Summary
+-h = Human readable
+
+3. du -h --max-depth=1 ~
+Shows disk usage one folder level deep.
+
+DEPTH = folder levels, not file size.
+
+4. sort -hr
+Sorts human-readable sizes from largest to smallest.
+
+-h = Human readable sizes
+-r = Reverse
+
+5. Find largest folders
+du -h --max-depth=1 /home | sort -hr
+
+6. Check root filesystem
+df -h /
+
+7. Extract disk usage percentage
+df -h / | awk 'NR==2 {print $5}'
+
+NR==2 = Line 2
+$5 = Field 5
+
+8. Remove the % symbol
+df -h / | awk 'NR==2 {print $5}' | cut -d '%' -f 1
+
+Example:
+17% becomes 17
+
+9. Store command output
+disk_usage=$(df -h / | awk 'NR==2 {print $5}' | cut -d '%' -f 1)
+
+$(command) = run the command and store its output.
+
+MEMORY:
+df = How full is my DISK?
+du = Which FILE/FOLDER is using the space?
+sort -hr = BIGGEST to SMALLEST
