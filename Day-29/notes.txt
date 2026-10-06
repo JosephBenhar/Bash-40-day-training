@@ -51,3 +51,48 @@ MEMORY:
 df = How full is my DISK?
 du = Which FILE/FOLDER is using the space?
 sort -hr = BIGGEST to SMALLEST
+
+DAY 29 - PART 2: DISK MONITORING SCRIPT
+
+Disk monitoring follows three steps:
+
+COLLECT → DECIDE → REPORT
+
+1. Collect real disk usage:
+
+disk_usage=$(df -h / | awk 'NR==2 {print $5}' | cut -d '%' -f 1)
+
+df = CHECK disk information
+awk = PICK the usage percentage
+cut = CLEAN the % symbol
+$() = RUN the command
+disk_usage = STORE the result
+
+Example:
+17% → 17 → stored in disk_usage
+
+2. Check the warning threshold:
+
+if [ "$disk_usage" -ge 80 ]
+
+-ge = greater than or equal to
+
+3. Decision:
+
+If usage is 80 or higher:
+Disk Status: WARNING
+
+Otherwise:
+Disk Status: Normal
+
+TESTING:
+
+17 >= 80 → FALSE → Normal
+90 >= 80 → TRUE → WARNING
+
+We can use a fake value such as disk_usage=90 to safely test
+the WARNING condition without actually filling the disk.
+
+MEMORY:
+
+CHECK → PICK → CLEAN → STORE → DECIDE → REPORT
