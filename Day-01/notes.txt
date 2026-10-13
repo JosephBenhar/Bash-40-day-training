@@ -39,3 +39,5 @@ ls = WHAT IS HERE?
 cd = MOVE
 echo = TALK
 
+REVISION QUESTION:
+Explain bash basics and navigation in your own words and show one example.
