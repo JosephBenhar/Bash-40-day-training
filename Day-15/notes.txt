@@ -25,3 +25,5 @@ MEMORY:
 DAY 01-15 FOUNDATION COMPLETE:
 I can now store data, receive input, compare values and make decisions in Bash.
 
+REVISION QUESTION:
+Explain logical or and give one example.
