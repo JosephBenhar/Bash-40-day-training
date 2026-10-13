@@ -17,3 +17,5 @@ In this example:
 MEMORY:
 -gt = GREATER THAN
 
+REVISION QUESTION:
+Explain greater than comparisons in your own words and show one example.
