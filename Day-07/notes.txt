@@ -24,3 +24,5 @@ elif = ANOTHER CHECK
 else = EVERYTHING ELSE
 fi = FINISH
 
+REVISION QUESTION:
+Explain elif conditions in your own words and show one example.
