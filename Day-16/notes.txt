@@ -24,3 +24,5 @@ done = finish the loop
 MEMORY:
 FOR EACH ITEM -> DO SOMETHING
 
+REVISION QUESTION:
+Explain for loops and give one example.
