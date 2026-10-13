@@ -21,3 +21,5 @@ echo "Welcome Joseph"
 MEMORY:
 # = NOTE FOR HUMANS
 
+REVISION QUESTION:
+Explain comments in your own words and show one example.
