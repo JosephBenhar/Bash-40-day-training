@@ -25,3 +25,5 @@ MEMORY:
 variable = STORE
 $variable = GET THE STORED VALUE
 
+REVISION QUESTION:
+Explain variables in your own words and show one example.
