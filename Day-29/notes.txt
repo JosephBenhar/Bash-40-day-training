@@ -96,3 +96,6 @@ the WARNING condition without actually filling the disk.
 MEMORY:
 
 CHECK → PICK → CLEAN → STORE → DECIDE → REPORT
+
+REVISION QUESTION:
+Explain disk monitoring and demonstrate one command.
