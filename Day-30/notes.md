@@ -71,3 +71,5 @@ The script successfully detected both running and stopped SSH services.
 Lesson learned:
 Always check Bash syntax and read error messages carefully.
 
+REVISION QUESTION:
+Explain processes and services and demonstrate one command.
