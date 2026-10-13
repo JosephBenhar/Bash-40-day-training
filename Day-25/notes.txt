@@ -66,3 +66,5 @@ sort = ARRANGE
 -n = NUMERIC
 -r = REVERSE
 
+REVISION QUESTION:
+Explain sort and vim and demonstrate one command.
