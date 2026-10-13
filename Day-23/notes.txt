@@ -44,3 +44,5 @@ wc -l counts them
 MEMORY:
 PIPE = LEFT OUTPUT -> RIGHT INPUT
 
+REVISION QUESTION:
+Explain file and text processing and demonstrate one command.
