@@ -23,3 +23,5 @@ NUMERIC COMPARISON MEMORY:
 -ge = greater than or equal
 -le = less than or equal
 
+REVISION QUESTION:
+Explain less than or equal and give one example.
