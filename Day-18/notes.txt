@@ -37,3 +37,5 @@ MEMORY:
 LOOP = REPEAT
 IF = DECIDE
 
+REVISION QUESTION:
+Explain for loops with conditions and give one example.
