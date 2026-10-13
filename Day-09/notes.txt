@@ -17,3 +17,5 @@ In this example:
 MEMORY:
 -lt = LESS THAN
 
+REVISION QUESTION:
+Explain less than comparisons in your own words and show one example.
