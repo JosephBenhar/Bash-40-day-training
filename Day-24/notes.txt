@@ -38,3 +38,5 @@ MEMORY:
 >  = WRITE / OVERWRITE FILE
 >> = APPEND TO FILE
 
+REVISION QUESTION:
+Explain tail and redirection and demonstrate one command.
