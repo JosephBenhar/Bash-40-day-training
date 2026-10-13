@@ -21,3 +21,5 @@ MEMORY:
 IF TRUE -> THEN
 IF FALSE -> ELSE
 
+REVISION QUESTION:
+Explain else conditions in your own words and show one example.
