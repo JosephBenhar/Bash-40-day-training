@@ -35,3 +35,6 @@ Do not unnecessarily give the filename again to cut.
 
 Memory:
 FIND -> EXTRACT -> ARRANGE -> COUNT
+
+REVISION QUESTION:
+Explain cut and log extraction and demonstrate one command.
