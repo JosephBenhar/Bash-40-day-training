@@ -35,3 +35,5 @@ MEMORY:
 WHILE TRUE -> KEEP GOING
 FALSE -> STOP
 
+REVISION QUESTION:
+Explain while loops and give one example.
