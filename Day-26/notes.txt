@@ -29,3 +29,6 @@ cat -n filename shows line numbers and helped identify blank lines.
 
 MEMORY:
 SORT -> PASS -> COUNT
+
+REVISION QUESTION:
+Explain sort and uniq and demonstrate one command.
