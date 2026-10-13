@@ -18,3 +18,5 @@ Both of these would be TRUE:
 MEMORY:
 -ge = GREATER THAN OR EQUAL
 
+REVISION QUESTION:
+Explain greater than or equal and give one example.
