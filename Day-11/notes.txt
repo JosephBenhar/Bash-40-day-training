@@ -17,3 +17,5 @@ In this example:
 MEMORY:
 -ne = NOT EQUAL
 
+REVISION QUESTION:
+Explain not equal comparisons and give one example.
