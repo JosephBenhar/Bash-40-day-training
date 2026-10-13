@@ -16,3 +16,5 @@ $variable = GET
 
 This was an important step because my scripts could now interact with the user instead of only displaying fixed information.
 
+REVISION QUESTION:
+Explain user input with read in your own words and show one example.
