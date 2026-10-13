@@ -32,3 +32,5 @@ MEMORY:
 FUNCTION = JOB
 ARGUMENTS = DATA GIVEN TO THE JOB
 
+REVISION QUESTION:
+Explain function arguments and demonstrate one command.
