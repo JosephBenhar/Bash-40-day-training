@@ -65,3 +65,6 @@ uniq -c -> COUNT
 
 Day 28:
 awk -> EXTRACT + FILTER + PROCESS
+
+REVISION QUESTION:
+Explain awk text processing and demonstrate one command.
