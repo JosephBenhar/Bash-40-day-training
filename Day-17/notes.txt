@@ -22,3 +22,5 @@ MEMORY:
 ONE LOOP
 MULTIPLE VALUES
 
+REVISION QUESTION:
+Explain for loops with numbers and give one example.
