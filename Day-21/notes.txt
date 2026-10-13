@@ -43,3 +43,5 @@ TEST
 MEMORY:
 FUNCTION = REUSABLE JOB
 
+REVISION QUESTION:
+Explain functions and demonstrate one command.
