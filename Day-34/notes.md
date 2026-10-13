@@ -28,3 +28,6 @@ Duplicate function calls caused disk/memory/uptime sections to appear twice. A d
 
 ## Memory trick
 VARIABLE = STORE DATA; FUNCTION = STORE A JOB; $1 = FIRST INPUT; CALL = RUN.
+
+## Revision question
+Explain reusable server health functions and demonstrate one command.
