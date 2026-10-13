@@ -21,3 +21,5 @@ fi = FINISH THE CHECK
 
 This introduced decision-making into my Bash scripts.
 
+REVISION QUESTION:
+Explain if statements in your own words and show one example.
