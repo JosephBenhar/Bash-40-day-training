@@ -22,3 +22,6 @@ journalctl = READ THE DIARY; grep = FIND; tail = LATEST; sed = CLEAN.
 
 ## Security
 A failed local SSH login to 127.0.0.1 was a controlled exercise, not proof of an attack.
+
+## Revision question
+Explain linux logs and admin monitoring and demonstrate one command.
