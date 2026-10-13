@@ -24,3 +24,5 @@ Run the command.
 MEMORY:
 && = BOTH MUST BE TRUE
 
+REVISION QUESTION:
+Explain logical and and give one example.
