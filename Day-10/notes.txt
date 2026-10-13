@@ -23,3 +23,5 @@ EXAMPLES:
 MEMORY:
 -eq = EQUAL NUMBERS
 
+REVISION QUESTION:
+Explain numeric equality in your own words and show one example.
