@@ -27,3 +27,6 @@ Different timestamps in the log showed repeated execution; a report at 15:58:01 
 
 ## Memory trick
 CRON = ALARM CLOCK; CRONTAB = SCHEDULE; >> = KEEP OLD ENTRIES AND ADD NEW.
+
+## Revision question
+Explain cron scheduling and demonstrate one command.
