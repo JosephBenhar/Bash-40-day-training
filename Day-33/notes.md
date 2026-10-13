@@ -21,3 +21,6 @@ In the interactive Zsh terminal, an unclosed double quote led to the `dquote>` p
 
 ## Memory trick
 0 = OK; NON-ZERO = ERROR; -d = DIRECTORY; -f = FILE; bash -x = X-RAY.
+
+## Revision question
+Explain error handling and debugging and demonstrate one command.
